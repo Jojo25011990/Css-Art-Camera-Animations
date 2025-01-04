@@ -1,0 +1,16 @@
+{
+	"name": "camera-starter",
+	"version": "1.0.0",
+	"description": "Camera animation",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon -e scss -x \"npm run sass\"",
+		"sass": "sass sass/main.scss css/style.css --no-source-map"
+	},
+	"author": "Jozef Kudrna",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.1.0",
+		"sass": "^1.75.0"
+	}
+}

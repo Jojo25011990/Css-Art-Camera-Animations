@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Camera Animation</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body id="body">
+		<div class="container">
+			<h1 class="camera__heading">
+				<span class="camera__heading-big">Please Cheeeese !</span>
+				<br />
+				<span class="camera__heading-small">"Smile Pleaaaaaaase!"</span>
+				<span class="camera__heading--arrow-bottom" id="arrow"
+					><i class="fa-solid fa-arrow-down"></i>
+				</span>
+			</h1>
+
+			<div class="camera" id="camera">
+				<div class="camera__lens">
+					<div class="camera__lens--inner">
+						<div class="camera__lens--inner-2"></div>
+					</div>
+				</div>
+
+				<div class="camera__flash"></div>
+				<div class="camera__btn" id="btn"></div>
+			</div>
+			<!-- <div class="camera__btn" id="btn"></div> -->
+			<!-- For some reason, setting the z-index didn't work, so after about 45 minutes of troubleshooting, I had to move it outside of the container. -->
+		</div>
+
+		<h2 class="smile__heading" id="smile">Smile</h2>
+
+		<script
+			src="https://kit.fontawesome.com/3749010148.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
